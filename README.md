@@ -37,3 +37,12 @@ The dataset contains details such as transaction amount, user ID, merchant infor
 - For fraudulent transactions, while precision is high (fewer false positives), recall is slightly lower, means a few fraudulent transactions are still being missed.
 - Misclassifications mainly occur due to the extreme **class imbalance** (very few fraud cases compared to legitimate ones).
 - Future work can include any methods to further improve fraud capture rates.
+
+
+# Project Folder Structure
+ 
+  Credit-Card-Fraud-Detection/
+├── 📄 Code Execution Guide.md    — Step-by-step guide to run the project
+├── 📄 README.md                   — Project overview, details, and instructions
+├── 📓 credit_card_fraud_detection.ipynb   — Main Jupyter Notebook containing model building and evaluation
+
